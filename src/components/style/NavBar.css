@@ -1,0 +1,29 @@
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  height: 15vh; /* 15% of the viewport height */
+  width: 100%;  /* Full width */
+  position: fixed;  /* Fixed position at the top */
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;  /* Optional: Light background */
+  z-index: 1000;  /* Ensure it stays on top */
+}
+
+.navbar .left {
+  font-weight: bold;
+}
+
+.navbar .middle {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .right {
+  display: flex;
+  justify-content: flex-end;
+}
